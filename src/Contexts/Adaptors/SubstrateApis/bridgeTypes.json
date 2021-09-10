@@ -1,0 +1,19 @@
+{
+  "chainbridge::ChainId": "u8",
+  "ChainId": "u8",
+  "ResourceId": "[u8; 32]",
+  "DepositNonce": "u64",
+  "ProposalVotes": {
+    "votes_for": "Vec<MultiAddress>",
+    "votes_against": "Vec<MultiAddress>",
+    "status": "enum"
+  },
+  "Erc721Token": {
+    "id": "TokenId",
+    "metadata": "Vec<u8>"
+  },
+  "TokenId": "U256",
+  "AccountInfo": "AccountInfoWithDualRefCount",
+  "BlockWeights": "u8",
+  "BlockLength": "u8"
+}
